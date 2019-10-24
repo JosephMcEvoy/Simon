@@ -1,0 +1,38 @@
+<body>
+    <div class="container-fluid">
+
+        <header class="row">
+            <div class="col-xs-8 col-xs-offset-2 title-box">
+                Simon
+            </div>
+        </header>
+
+        <!--Controls - Start, Reset, Strict, 0-->
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 controls">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-md btn-lt" id="start">Start</button>
+                    <button type="button" class="btn btn-md" id="reset">Reset</button>
+                    <button type="button" class="btn btn-md" id="strict">Strict</button>
+                    <button type="button" class="btn btn-md btn-rt" id="counter">0</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Board-->
+        <div class="board">
+            <div class="row">
+                <div class="col-xs-4 box a1" id="red"></div>
+                <div class="col-xs-4 box b1" id="green"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 box a2" id="yellow"></div>
+                <div class="col-xs-4 box b2" id="blue"></div>
+            </div>
+        </div>
+    
+    <!--Winner div, hidden by default-->
+    <div class="status">You win.</div>
+
+    </div>
+</body>

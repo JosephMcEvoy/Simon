@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon for FreeCodeCamp</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<script src="bootstrap-switch.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <div class="container-fluid">
+
+        <header class="row">
+            <div class="col-xs-8 col-xs-offset-2 title-box">
+                Simon
+            </div>
+        </header>
+
+        <!--Controls - Start, Reset, Strict, 0-->
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 controls">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-md btn-lt" id="start">Start</button>
+                    <button type="button" class="btn btn-md" id="reset">Reset</button>
+                    <button type="button" class="btn btn-md" id="strict">Strict</button>
+                    <button type="button" class="btn btn-md btn-rt" id="counter">0</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Board-->
+        <div class="board">
+            <div class="row">
+                <div class="col-xs-4 box a1" id="red"></div>
+                <div class="col-xs-4 box b1" id="green"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 box a2" id="yellow"></div>
+                <div class="col-xs-4 box b2" id="blue"></div>
+            </div>
+        </div>
+    
+    <!--Winner div, hidden by default-->
+    <div class="status">You win.</div>
+
+    </div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
